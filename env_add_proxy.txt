@@ -1,0 +1,18 @@
+# env | grep proxy
+ 
+# export 'https_proxy=http://proxy.oduvs.so:3128'
+# export 'http_proxy=http://proxy.oduvs.so:3128'
+
+# unset https_proxy
+
+
+
+
+
+# wget --no-check-certificate -qO - https://repo.yandex.ru/yandex-browser/YANDEX-BROWSER-KEY.GPG | sudo apt-key add -
+# sudo apt install yandex-browser-stable
+
+
+
+# apt-key list
+# apt-key del "67CE 018F D19E 3CD4 8189  BC69 2180 17D1 CC5F DB34"

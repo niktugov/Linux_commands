@@ -1,0 +1,5 @@
+-20 (highest priority 19 lowest)
+> nice -n 15 top
+> renice -n -17 PID
+
+> ps axo pid,comm,nice,cls --sort=-nice

@@ -1,0 +1,2 @@
+# dmidecode - инфо о железе 
+# dmidecode --type bios

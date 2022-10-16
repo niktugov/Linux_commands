@@ -1,0 +1,5 @@
+# curl http://www.website.com/file
+# curl ifconfig.me - покажет внешний ip 
+curl отличается от wget, тем что wget сохраняет файл, а curl выводит в командную строку
+
+# curl 192.168.0.100 - is webserver active

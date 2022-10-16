@@ -1,0 +1,9 @@
+# swapon -s - проверка наличи€ свопа
+# dd if=/dev/zero of=/swapfile002 bs=1G count=1 - создание файла подкачки в / размером 1G
+# chmod 600 /swapfile002
+# mkswap /swapfile002 - создаем пространство подкачки
+# swapon /swapfile002    (swapoff /swapfile002)
+# free -m
+
+¬ fstab:
+/swapfile002 swap swap defaults 0 0

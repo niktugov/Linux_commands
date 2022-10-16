@@ -1,0 +1,8 @@
+﻿# chown root filename - заменит владельца файла на root
+# chgrp root test - заменит группу
+# chown user:group filename - заменит владельца и группу
+# groups - в каких группах текущий пользователь
+
+После добавления в группу судо пользователя, необходимо перезагрузиться
+
+# chown -R root foldername 

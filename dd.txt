@@ -1,0 +1,7 @@
+To clone or backup an entire HDD to another, connected to the same system:
+# dd if=/dev/sda of=/dev/sdb
+
+To copy disk partition:
+# dd if=/dev/sda1 of=/root/sda1.img
+Restore to other machine:
+# dd if=/root/sda1 of=/dev/sdb3

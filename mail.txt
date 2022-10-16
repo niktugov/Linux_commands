@@ -1,0 +1,4 @@
+# yum install sendmail
+# yum install sendmail_cf
+/usr/sbin/sendmail user@domain.com < /file/to/send
+# dnf install mailx (mail is not found)

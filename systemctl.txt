@@ -1,0 +1,5 @@
+# systemctl restart service
+# systemctl -a - список запущенных служб
+# systemctl --version
+# systemctl restart firewalld (stop+start)
+# systemctl mask|umask servicename (to enable or disable service completely)

@@ -1,0 +1,8 @@
+> timedatectl     - show information
+> timedatectl list-timezones
+> timedatectl set-timezone Asia/Vladivostok
+> timedatectl set-time '2021-09-12 00:39:45'
+> timedatectl set-ntp true     - enable ntp sync
+
+> chronyc 
+  sources

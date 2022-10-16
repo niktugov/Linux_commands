@@ -1,0 +1,6 @@
+# alias pl="pwd;ls"
+# unalias d
+Чтобы алиас сохранился полсе перезапуска, необхлдимо его прописать /home/user/bashrc
+							           /etc/bahrc
+
+# type - write a description of command type - можно проверить зянято ли имя

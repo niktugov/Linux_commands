@@ -1,0 +1,58 @@
+﻿/etc/ssh
+/etc/ssh/sshd_config
+
+# ssh tugov_ny@192.168.9.102 ls -l /home/tugov_ny - выполнит ls -l  на удаленном хосте
+
+# ssh tugov_ny@192.168.9.102 ssh tugov_ny@192.168.9.103 ls -l - если у первой машины нет доступа к 3, но есть у второй
+
+Secure SSH 
+1. Set idle timeout
+
+# vi /etc/ssh/shhd_config
+ClientAliveInterval 600
+ClientAliveCountMax 0
+#systemctl restart sshd
+
+2. Disable root login
+# vi /etc/ssh/shhd_config
+PermitRootLogin no
+#systemctl restart sshd
+
+3. Disable empty passwords
+# vi /etc/ssh/shhd_config
+PermitEmptyPasswords no
+#systemctl restart sshd
+
+4. Limit allowed users 
+# vi /etc/ssh/shhd_config
+AllowUsers user1 user2
+#systemctl restart sshd
+
+5. Use a different port
+# vi /etc/ssh/shhd_config
+Port 22
+#systemctl restart sshd
+
+
+# ssh-keygen
+# ssh-copy-id -i id_rsa.pub ansible@192.168.0.102
+# ssh ansible@192.168.0.102
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+
+Посмотреть список существующих лейблов можно по следующему пути:
+
+# ls /dev/disk/by-label/
+
+
+
+# e2label /dev/sda1 LABEL
+
+
+fstab
+Пример записи в fstab, для монтирования xfs раздела по лейблу "SITE"
+
+LABEL=SITE  /var/www/html/site  xfs  defaults    0 0
+
+LABEL=data  /mnt/data           ext4 defaults    0 0

@@ -1,0 +1,16 @@
+When you create a user, this files will be changed:
+/etc/passwd
+/etc/shadow (! - account disabled) 
+/etc/group
+
+# useradd username
+# id username - verify
+# groupadd groupname
+# groupdel groupname
+# cat /etc/group - verify
+# userdel -r user - удалит юзера и домашнюю папку
+# grep username /etc/group - проверить в какой группе пользователь
+
+
+# useradd -g superheroes -s /bin/bash -c "ironman character" -m -d /home/ironman ironman
+# useradd -m -s /bin/bash username

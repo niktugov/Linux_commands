@@ -1,0 +1,21 @@
+/etc/sysconfig/selinux
+
+# sestatus
+- permissive - disabled, but logs are activity.
+
+# getenforce
+# setenforce 1 - enabled (active, before reboot)
+# setenforce 0 - disabled/permissive (writing logs)
+
+Нельзя сразу ставить enabled! Сначала permissive, затем ждем, пока система промаркирует файлы, затем enforcing + create /.autorelabel
+
+# ls -lZ
+# ls -dZ - label of directory
+
+SElinux also labeling processes.
+
+# ps -axZ - proc with labels
+# audit2why < var
+
+> getsebool -a
+> setsebool -P bool_name on/off

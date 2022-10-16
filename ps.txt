@@ -1,0 +1,9 @@
+# ps -ef - all processees running on your system
+# top -h
+# htop
+# ps -ef | grep ssh - is sshd active?
+# ps -p 1 - проверка системы инициализации
+# pstree - дерево процессов
+# ps -ef | grep TestUser | wc -l
+# ps --forest
+# ps aux | grep nginx

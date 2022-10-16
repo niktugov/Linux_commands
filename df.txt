@@ -1,0 +1,8 @@
+# df -h
+#  
+# free - memory
+
+# df -h | grep -v tmpfs - покажет смонтированные разделы
+# df -T - type of FS
+# df -h | grep -v tmpfs - просмотр свободного места на разделах, исключая tmpfs (ram)
+# df -h /dev/sda1

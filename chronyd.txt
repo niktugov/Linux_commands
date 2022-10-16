@@ -1,0 +1,15 @@
+/etc/chrony.conf (сервера после 1 строки) 
+
+# systemctl status chronyd 
+# chronyc tracking - чтобы проверить, синхронизирован ли chrony
+# chronyc sources - информация об источниках chrony
+# firewall-cmd --add-service=ntp --permanent
+# firewall-cmd --reload
+# timedatectl list-timezones | column
+# timedatectl set-timezone Asia/Vladivostok
+# timedatectl | grep -i "time zone"
+
+# chronyc sourcestats
+
+/etc/systemd/timesyncd.conf
+# systemctl status systemd-timesyncd - for ubuntu

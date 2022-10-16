@@ -1,0 +1,1 @@
+# iptables -A INPUT -p tcp --dport 514 -j ACCEPT - открыть порт 514

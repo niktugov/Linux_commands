@@ -1,0 +1,11 @@
+﻿# cat /var/log/messages | tail -2 - выведет последние 2 строки
+                          head -2 - первые 2
+
+# cat /var/log/messages | tee /home/user/file - запишет содержимое messages в file 
+# cat /proc/cpuinfo
+# cat /var/log/boot.log
+# cat /etc/hostname
+# cat /etc/redhat-release
+# cat /var/log/messages | grep error - инф об ошибках
+# cat /proc/meminfo
+# cat > file.txt - создаст файл, и читает данные с STDIN (можно записать текст в файл с клавиатуры) 

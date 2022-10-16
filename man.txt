@@ -1,0 +1,3 @@
+﻿# man hier — инф о каталогах linux
+# man 5 passwd — раздел 5 
+# man -a time — все мануалы со словом time

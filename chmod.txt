@@ -1,0 +1,11 @@
+# chmod - command to change permissions
+u -user, g -group, o -owner
+
+# chmod u-r filename - запрещает чтение файла текущему пользователю
+# chmod a-r filename - all r
+# cmod  a+rw filename - all rw
+# chmod 000 filename - запрещает всем rwx
+# chmod 777 filename
+# chmod 4771 - включить suid бит
+
+parameter x on directory allows cd in this directory

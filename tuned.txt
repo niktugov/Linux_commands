@@ -1,0 +1,6 @@
+> systemctl status tuned
+> tuned-adm active       - shows active profile
+> tuned-adm list         - list of avalible profiles
+> tuned-adm profile balanced
+> tuned-adm recommend
+> tuned-adm off

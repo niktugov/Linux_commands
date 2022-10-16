@@ -1,0 +1,2 @@
+# nmcli -p dev - список адаптеров
+# nmtui edit enp0s3 

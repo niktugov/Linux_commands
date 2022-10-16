@@ -1,0 +1,11 @@
+﻿# rpm -qi wget - информация о пакете wget
+# rpm -ql wget - список файлов установленного пакета
+# rpm -qa | sort > packages.txt - отсортирует по алфавиту и запишет в файл
+# rpm -ihv /home/tugov_ny/packet.rpm - установка пакета из указанной директории
+# rpm -e packet - удаление пакета = # yum remove packet
+# rpm -qf /usr/bin/pwd - укажет к какому пакету принадлежит команда pwd, если удалить данный пакет, команда не будет работать
+# package-cleanup --leaves - all orphaned packages
+# yum remove `package-cleanup --leaves`
+При удалении пакета зависимомти не удаляются! 
+
+# rpm -qa --last - время установки пакетов

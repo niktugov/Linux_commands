@@ -1,0 +1,8 @@
+﻿# find -name filename - поиск файла с именем filename
+# find /home -name filename  - поиск в home 
+# find /home -size +10k - все файлы больше 10к
+# find /folder -perm +4000 - ищет файлы с битом SUID в каталоге /folder
+# find . -size -26c -size +23c -exec ls -l '{}' \; ищет файлы размером от 23 байт до 26 и с найденным выполняет команду ls -l
+# find . -mount -type f -size +1G 2>/dev/null
+
+# find /home/ntugov/bashscripts/test/ -mtime +90 -exec ls -l {} \;

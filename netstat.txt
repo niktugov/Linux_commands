@@ -1,0 +1,4 @@
+# netstat -rnv
+# netstat -tunlp                                   - opened ports list
+# netstat -ntp
+# sudo netstat -plant | grep 80                    - who is listening on port 80

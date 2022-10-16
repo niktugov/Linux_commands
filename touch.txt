@@ -1,0 +1,5 @@
+# touch abc{1..9} - создаст 9 файлов abc1, abc2, abc3 .. 
+
+
+# touch -d "Thu, 10 March 2018 12:30:00" filename
+

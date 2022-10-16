@@ -1,0 +1,2 @@
+﻿# journalctl -b - все логи с момента последней загрузки
+# journalctl -b | tail -10

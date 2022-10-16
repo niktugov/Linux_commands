@@ -1,0 +1,9 @@
+sda - 1st disk sda1 - 1st partition
+fdisk - manipulate disk partition table
+
+# fdisk -l
+
+Создание раздела по дефолту:
+# fdisk /dev/sdb1
+n...enter....w 
+# mkfs.ntfs -n "метка раздела" /dev/sdb1 

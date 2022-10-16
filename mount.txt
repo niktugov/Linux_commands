@@ -1,0 +1,18 @@
+# mount /dev/sdb1 /mnt/data
+
+ƒл€ автоматического монтировани€ разделов, правим fstab:
+
+ /dev/sdb1 /mnt/disk1 ext4 defaults 0 0
+
+//dgk222610/share /mnt/share cifs credentials=/root/cifs_pass,iocharset=utf8,file_mode=0777,dir_mode=0777
+
+
+# mount -a - смонтировать все
+
+# mount -t cifs -o username=svc_tech_110-05 //dgk10v807/share /mnt/share - смонтирует папку
+
+# umount /mnt/share
+
+# lsblk
+
+# mount /dev/sda1 /mnt/test

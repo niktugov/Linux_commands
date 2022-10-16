@@ -1,0 +1,2 @@
+﻿# tail -f /var/log/secure - покажет в реальном времени инфу о логинах
+# tail -3 /var/log/messages - последние 3

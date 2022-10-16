@@ -1,0 +1,6 @@
+drwxrwxr-x+          - directory with acl permissions
+> setfacl -m u:username:rwx filename
+> setfacl -m g:groupname:rw /path/to/file 
+> setfacl -x u:username /path/to/file         - to remove specific entry
+> setfacl -b /path/to/file                    - to remove all entries
+> getfacl filename

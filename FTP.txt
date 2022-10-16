@@ -1,0 +1,9 @@
+# yum install vsftpd
+# mount -o loop,ro -t iso9660 /путь/к/image.iso /mnt/iso
+# cp -r /mnt/iso/ /var/ftp/
+# systemctl start vsftpd.service
+
+
+vmlinuz initrd=initrd.img  ks=ftp://192.168.9.101/pub/ks.cfg
+
+Min 2GB RAM for network installation! 

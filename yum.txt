@@ -1,0 +1,7 @@
+﻿# yum groupinstall 'X Window System' GNOME --disablerepo "base" - утановка с исключением репозитория base
+# yum provides /usr/lib64/libijs-0.35.so  -узнать в какой пакет входит libijs 
+# yum search 
+# yum repo-pkgs RedOS-Base list | grep httpd - список пакетов httpd в репозитории редос
+# yum autoremove httpd - удалит пакет + зависимости
+# yum list installed - все установленные пакеты
+

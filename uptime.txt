@@ -1,0 +1,5 @@
+# uptime
+# cal 2020
+# bc
+# date
+# date -s "12 mar 2015 12:30"

@@ -1,0 +1,1 @@
+# scp filename tugov_ny@dgk22l001:/home/tugov_ny 

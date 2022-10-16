@@ -1,0 +1,11 @@
+# pvs - Покажет диски, используемые lvm
+# lvs - логические группы 
+
+> pvcreate /dev/sdc1
+> pvdisplay
+> vgcreate 
+> vgdisplay
+> lvcreate -n oracle_lv --size 2.5G oracle_vg
+> mkfs.xfs /dev/oracle_vg/oracle_lv
+> vgextend oracle_vg /dev/sdd1
+> lvextend -L+1024M /dev/mapper/oracle_vg-oracle_lv

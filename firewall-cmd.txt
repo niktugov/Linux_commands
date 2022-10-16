@@ -1,0 +1,6 @@
+> firewall-cmd --zone=public --permanent --add-service=http
+> firewall-cmd --zone=public --permanent --add-service=https
+> firewall-cmd --reload
+> firewall-cmd --list-all
+> firewall-cmd --zone=public --permanent --remove-service=http
+> firewall-cmd --zone=public --permanent --remove-service=https

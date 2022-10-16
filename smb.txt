@@ -1,0 +1,4 @@
+# smbtree
+# smbclient -U svc_tech_122-05 -L //dgk222610 - покажет список расшаренных папок
+# smbclient -U svc_tech_122-05 //dgk222610/Share - зайдет в папку Share
+ 

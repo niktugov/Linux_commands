@@ -1,0 +1,8 @@
+nmap - Network exploration tool and security / port scanner
+
+
+# yum install nmap
+# nmap -sP 10.88.32.* | arp -an | grep -i 94:DE:80:0F:6F:33 - узнать ip по mac 
+# nmap -sP 10.67.40.* | grep dgk10prn* | awk '{print $5}' > list.txt
+
+# nmap -p 9100 10.67.40.0/24 --open | grep -E -o "([0-9]{1,3}[\.]){3}[0-9]{1,3}"  - show ip addresses with port 9100 open 

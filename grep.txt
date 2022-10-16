@@ -1,0 +1,9 @@
+﻿# grep user /etc/passwd -выведет строки с user из файла 
+# grep -i keYword - игнорирует регистр
+# grep -i error /var/log/messages
+# grep "failed" /var/log/messages
+# grep -v ".gz" - не содержит gz
+# grep -v ^# /etc/ssh/sshd_config | grep -v ^$ - уберет пустые строки и строки с символом # 
+# grep "blabla" filename - найдет blabla в файле
+
+# grep word < filename

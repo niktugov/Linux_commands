@@ -1,0 +1,5 @@
+﻿
+# cp /var/log/messages . - скопирует messages в текущую директорию
+
+
+# cp /usr/share/zoneifo/Asia/Vladivostok /etc/localtime - установка часового пояса

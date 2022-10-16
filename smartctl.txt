@@ -1,0 +1,2 @@
+# smartctl -i /dev/sda - поддерживает ли диск смарт?
+# smartctl -A /dev/sda - просмотр смарт

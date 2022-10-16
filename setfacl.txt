@@ -1,0 +1,6 @@
+﻿# setfacl -m u:username:r home/user/filename
+# getfacl filename
+
+перезайти в папку, чтобы перечитать права
+
+# setfacl -R -m u:davis:rwx /home/john - назначить пользователю davis полный доступ к папке 

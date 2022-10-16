@@ -1,0 +1,6 @@
+# tar cvf archive_name.tar . - поместит все файлы в текущей директории в архив archive_name
+# tar xvf archive.tar - распакует архив в текущую директорию
+# gzip archive.tar - сжимает архив archive.tar.gz
+# gzip -d archive.tar.gz - убирает сжатие
+ 
+# tar -xzvf

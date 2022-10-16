@@ -1,0 +1,2 @@
+# getfacl filename - показывает права на файл
+# setfacl -m user:rw filename 
