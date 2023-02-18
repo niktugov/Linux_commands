@@ -1,0 +1,6 @@
+# lsof -u ntugov | wc -l                                - shows amount of opened files by user ntugov
+# lsof -u^ntugov | wc -l                                - opened files of all users except ntugov
+# lsof -i -a -u $USER | grep chromium                   - list of tcp connection for chrome
+# lsof -i 6                                             - list of opened ipv6 connections
+# lsof | grep '(deleted)'                               - list of deleted files but still opened in app
+# 

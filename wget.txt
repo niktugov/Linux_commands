@@ -1,0 +1,5 @@
+curl отличается от wget, тем что wget сохраняет файл, а curl выводит в командную строку
+
+
+# wget --mirror -p --convert-links -P /home/dan xyz.com              - create local copy of website
+# wget -O filename.tar ftp://some.host.com/filename-1.3.0-release-branch.tar  - save with another name

@@ -1,0 +1,4 @@
+ kernel ring buffer messages
+
+# dmesg -T | grep enp0s3                                              - network adapter info
+# dmesg -l err                                                        - hardware errors

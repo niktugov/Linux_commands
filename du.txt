@@ -1,5 +1,7 @@
-# du -sh - размер текущей директории
+# du -sh                                                    - размер текущей директории
 # du -sh /home/tugov_ny/
 # du -h *
 
-du -h / | sort -nr | more - disk usage in / sorted by size 
+# du -h / | sort -nr | more                                   - disk usage in / sorted by size 
+
+# du . --max-depth=1 -ah | sort -rh | head -10
