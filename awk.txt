@@ -1,0 +1,2 @@
+# awk '{print $1}' /var/log/apache2/access.log | sort -u                          - delete repeat writes
+
