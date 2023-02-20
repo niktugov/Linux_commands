@@ -7,3 +7,6 @@
 # grep "blabla" filename - найдет blabla в файле
 
 # grep word < filename
+
+# grep -v "^#" apache2.conf                                  - remove all comments from apache2.conf
+# grep -v "^#" apache2.conf | grep -v "^$" > apache.conf     - +remove all empty strings

@@ -1,0 +1,5 @@
+ii - installed 
+rc - not installed, something left after deleting
+
+# dpkg -l                             - list of all installed packages
+# dpkg -l | grep "^ii" | wc -l        - amount of installed packages

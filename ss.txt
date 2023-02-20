@@ -1,1 +1,1 @@
-# sudo ss -ntlp                              - shows opened sockets                   
+# sudo ss -ntlp                              - shows opened sockets   t -tcp                
