@@ -1,5 +1,10 @@
-# curl http://www.website.com/file
-# curl ifconfig.me - покажет внешний ip 
 curl отличается от wget, тем что wget сохраняет файл, а curl выводит в командную строку
 
-# curl 192.168.0.100 - is webserver active
+# curl http://www.website.com/file
+# curl ifconfig.me                                  - покажет внешний ip 
+
+# curl 192.168.0.100                                - is webserver active
+# curl -L ya.ru                                     - if website moved (301) follow to redirect
+# curl --user-agent TESTAGENT adv-it.net            - hide your agent
+# curl -s http://api.astakhov.net | jq              - api test 
+
